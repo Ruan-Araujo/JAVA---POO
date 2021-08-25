@@ -1,4 +1,4 @@
-package exercicio;
+package modelandoClasses;
 
 public class Conta {
     private int num;

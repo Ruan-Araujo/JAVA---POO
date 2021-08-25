@@ -1,4 +1,4 @@
-package exercicio;
+package modelandoClasses;
 
 public class TestandoCliente {
     public static void main(String[] args) {
