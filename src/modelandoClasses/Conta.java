@@ -5,6 +5,8 @@ public class Conta {
     private double saldo;
     private double limite;
 
+    Agencia agencia;
+
     public int getNum() {
         return this.num;
     }

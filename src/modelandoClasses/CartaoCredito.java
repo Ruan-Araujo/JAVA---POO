@@ -4,6 +4,8 @@ public class CartaoCredito {
     private int numero;
     private String dataValidade;
 
+    public Cliente cliente;
+
     public int getNumero() {
         return numero;
     }

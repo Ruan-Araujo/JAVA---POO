@@ -1,6 +1,4 @@
-package DogAdocao;
-
-import DogAdocao.DogAdocao;
+package CachorroAdocao;
 
 import java.time.LocalDate;
 
