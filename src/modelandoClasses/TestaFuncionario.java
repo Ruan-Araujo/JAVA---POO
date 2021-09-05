@@ -10,5 +10,11 @@ public class TestaFuncionario {
         Funcionarios funcionarioII = new Funcionarios("Professor", 3000.80);
         System.out.println(funcionarioII.getCargo());
         System.out.println(funcionarioII.getSalario());
+
+        funcionarioI.aumentarSalario(1000);
+        funcionarioI.consultarDados();
+
+        funcionarioII.aumentarSalario(2000);
+        funcionarioII.consultarDados();
     }
 }
