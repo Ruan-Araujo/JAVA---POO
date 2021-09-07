@@ -1,28 +1,27 @@
 package aula12;
-// Clientes: os clientes serão identificados com um número de cliente, nome, RG e CPF.
+// Os clientes serão identificados com um número de cliente, sobrenome, CPF e conta.
+public class Cliente {
 
-abstract public class Cliente {
-
-    private String numeroCliente;
+    private String numCliente;
     private String nome;
-    private String rg;
+    private String sobrenome;
     private String cpf;
-    private String tipoConta;
+    private Conta tipoConta;
 
-    public Cliente(String numeroCliente, String nome, String rg, String cpf, String tipoConta) {
-        this.numeroCliente = numeroCliente;
+    public Cliente(String numCliente, String nome, String sobrenome, String cpf, Conta tipoConta) {
+        this.numCliente = numCliente;
         this.nome = nome;
-        this.rg = rg;
+        this.sobrenome = sobrenome;
         this.cpf = cpf;
         this.tipoConta = tipoConta;
     }
 
-    public String getNumeroCliente() {
-        return numeroCliente;
+    public String getNumCliente() {
+        return numCliente;
     }
 
-    public void setNumeroCliente(String numeroCliente) {
-        this.numeroCliente = numeroCliente;
+    public void setNumCliente(String numCliente) {
+        this.numCliente = numCliente;
     }
 
     public String getNome() {
@@ -33,12 +32,12 @@ abstract public class Cliente {
         this.nome = nome;
     }
 
-    public String getRg() {
-        return rg;
+    public String getSobrenome() {
+        return sobrenome;
     }
 
-    public void setRg(String rg) {
-        this.rg = rg;
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
     }
 
     public String getCpf() {
@@ -49,11 +48,11 @@ abstract public class Cliente {
         this.cpf = cpf;
     }
 
-    public String getTipoConta() {
+    public Conta getTipoConta() {
         return tipoConta;
     }
 
-    public void setTipoConta(String tipoConta) {
+    public void setTipoConta(Conta tipoConta) {
         this.tipoConta = tipoConta;
     }
 }
